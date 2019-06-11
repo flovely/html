@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flovely - Cart</title>
+	<link rel="icon" href="img/about.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/nouislider/nouislider.min.css">
+
+	
+	<link href="css/flovely.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo 2.png" alt="" width="193" height="55"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              
+              
+							<li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false"></a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href=""></a></li>
+                  <li class="nav-item"><a class="nav-link" href=""></a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact.html"></a></li>
+				
+            </ul>
+			  
+
+            <ul class="nav-shop">
+			  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!--================ End Header Menu Area =================-->
+
+	<!-- ================ start banner area ================= -->	
+<div class="col-md-4">
+  <p>&nbsp;</p>
+       <p>&nbsp;</p>
+		    <p>&nbsp;</p>  
+</div>
+	
+	<section class="blog-banner-area" id="category">
+		<div class="container h-100">
+			<div class="blog-banner">
+				<div class="text-center">
+					<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1" class="active"></li>
+	<li data-target="#slides" data-slide-to="2" class="active"></li>	
+	
+	</ul>
+	<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img class="img-fluid" src="img/banner2 2.png">
+		</div>
+	<div class="carousel-item">
+		<img class="img-fluid" src="img/banner1 2.png">
+		</div>
+	<div class="carousel-item">
+		<img class="img-fluid" src="img/banner 3-2.png">	
+	</div>
+	
+	</div>
+	</div>
+				</div>
+			</div>
+    </div>
+	</section>
+	<!-- ================ end banner area ================= -->
+  
+  
+
+  <!--================Cart Area =================-->
+  <section class="checkout_area section-margin--medium">
+      <div class="container">
+          <div class="cart_inner">
+              <div class="table-responsive">
+                  <table width="101%" class="table">
+                      <thead>
+                          <tr>
+                              <th width="44%" scope="col">Product</th>
+                              <th width="17%" scope="col">Price</th>
+                              <th width="21%" scope="col">Quantity</th>
+                              <th width="18%" scope="col">Total</th>
+							  
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <div class="media">
+                                      <div class="d-flex">
+                                          <img src="img/Florist - Ada/bouquet/ada1.jpg" alt="">
+                                      </div>
+                                      <div class="media-body">
+                                          <p>Kitty</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5>Rp. 620.000</h5>
+                              </td>
+                              <td>
+                                  <div class="product_count">
+                                      <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                          class="input-text qty">
+                                      <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                                          class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                      <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                                          class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5>Rp. 620.000</h5>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <div class="media">
+                                      <div class="d-flex">
+                                          <img src="img/Florist - Ada/bouquet/ada2.jpg" alt="">
+                                      </div>
+                                      <div class="media-body">
+                                          <p>Mickey</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5>Rp. 820.000</h5>
+                              </td>
+                              <td>
+                                  <div class="product_count">
+                                      <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                          class="input-text qty">
+                                      <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                                          class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                      <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                                          class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5>Rp. 820.000</h5>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <div class="media">
+                                      <div class="d-flex">
+                                          <img src="img/Florist - Ada/gift/ada9.jpg" alt="">
+                                      </div>
+                                      <div class="media-body">
+                                          <p>Small Bloom Box</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5>Rp. 680.000</h5>
+                              </td>
+                              <td>
+                                  <div class="product_count">
+                                      <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                          class="input-text qty">
+                                      <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                                          class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                      <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                                          class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5> Rp. 680.000</h5>
+                              </td>
+                          </tr>
+                          <tr class="bottom_button">
+                              <td>
+                                  
+                              </td>
+                              <td>
+
+                              </td>
+                              <td>
+
+                              </td>
+                              <td>
+                                  
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+
+                              </td>
+                              <td>
+
+                              </td>
+                              <td>
+                                  <h5>Subtotal</h5>
+                              </td>
+                              <td>
+                                  <h5>Rp 2.120.000</h5>
+                              </td>
+                          </tr>
+                          <tr class="shipping_area">
+                              <td class="d-none d-md-block">
+
+                              </td>
+                              <td>
+
+                              </td>
+                              <td>
+                                  <h5>Shipping</h5>
+                              </td>
+                              <td>
+                                  
+                                          <p>Flat Rate : Rp. 15.000</p>
+                                          
+                                          
+                                   
+                              </td>
+                          </tr>
+                          <tr class="out_button_area">
+                              <td class="d-none-l">
+
+                              </td>
+                              <td class="">
+
+                              </td>
+                              <td>
+
+                              </td>
+                              <td>
+                                  <div class="checkout_btn_inner d-flex align-items-center">
+                                      <a class="gray_btn" href="index.html">Continue Shopping</a>
+                                      <a class="gray_btn" href="checkout.html">Proceed to checkout</a>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--================End Cart Area =================-->
+
+
+
+  <!--================ Start footer Area  =================-->	
+	<!-- Contact and Download Us -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Contact Us and Download now</h2>
+          <h3 class="section-subheading text-muted">Follow us on Instagram to see our latest updates and Download now on Google Play Store!</h3>
+        </div>
+      </div>
+    </div>
+	  
+        <div class="col-lg-12 text-center">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/flovely.app/"target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+				
+            </li>
+            <li class="list-inline-item">
+              <a href="https://play.google.com/store/apps/details?id=com.whalemade.flovely"target="_blank">
+                <i class="fab fa-google-play"></i>
+              </a>
+				
+            </li>
+            <li class="list-inline-item">
+              <a href="https://api.whatsapp.com/send?phone=6281805171211"target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+				
+            </li>
+			  </li>
+            <li class="list-inline-item">
+              <a href = "mailto:flovely.app@gmail.com" Link Email"target="_blank">
+                <img src="img/gmail-logo1.png" alt="" width="45" height="45" class="img-fluid">
+              </a>
+				
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="privacy.html"target="_blank">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="terms.html"target="_blank">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+	<!--================ End footer Area  =================-->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+	<!-- Custom scripts for this template -->
+  <script src="js/flovely.js"></script>					  
+</body>
+</html>
